@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Flying Outlaw Sample",
+        "tweakdb_id": "Vehicle.v_sport1_herrera_outlaw_player_dav",
+        "display_name_lockey": 22086,
+        "type": [
+            "herrera_outlaw__basic_player_01",
+            "herrera_outlaw__basic_mafia_01",
+            "herrera_outlaw__basic_premium_01"
+        ],
+        "flight_mode": 0,
+        "actual_allocated_door": ["seat_front_left"],
+        "active_seat": ["Front Left Seat"],
+        "actual_allocated_seat": ["seat_front_left"],
+        "fpp_camera": true,
+        "camera_distance_ratio": [1.0],
+        "camera_center_offset": [{"x": 0.0, "y": 0.0, "z": 0.0}],
+        "entry_point": {"x": -1.0, "y": 0.0, "z": -1.0},
+        "entry_area_radius": 10,
+        "exit_point": {"x": -2.5, "y": 0, "z": 0},
+        "exit_duration": 1.0,
+        "minimum_distance_to_ground": 0.8,
+        "combat_door": ["None"],
+        "crystal_dome": false,
+        "landing_vfx": false,
+        "projection_offset": {"x": 0.0, "y": 0.0, "z": 0.0},
+        "engine_audio_name": "310_av_engine_idle",
+        "manual_speed_meter": false,
+        "manual_rpm_meter": true,
+        "collision_check_side_distance": 1.77,
+        "collision_check_front_distance": 3.22,
+        "collision_check_rear_distance": 3.61,
+        "armed": false
+    }
+]

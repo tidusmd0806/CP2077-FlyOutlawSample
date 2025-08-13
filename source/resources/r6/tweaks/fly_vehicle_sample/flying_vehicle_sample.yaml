@@ -1,0 +1,32 @@
+# Flying Outlaw v1.1.0 For Drive Aerial Vehicle ver3.0.0
+# For displaying the vehicle list.
+# Be sure to include _dummy at the end.
+Vehicle.v_sport1_herrera_outlaw_player_dav_dummy:
+  # Do not change $base. Specify a vanilla vehicle.
+  $base: Vehicle.v_sport1_herrera_outlaw_player
+  displayName: LocKey#22086
+  manufacturer: Vehicle.Herrera
+  icon:
+    atlasResourcePath: base/gameplay/gui/common/icons/weapon_manufacturers.inkatlas
+    atlasPartName: herrera
+
+Vehicle.v_sport1_herrera_outlaw_player_dav_dummy.dealerAtlasPath: "base\\gameplay\\gui\\common\\icons\\codex\\assets_fullscreen16.inkatlas"
+Vehicle.v_sport1_herrera_outlaw_player_dav_dummy.dealerPartName: "v_herrera_outlaw_full"
+Vehicle.v_sport1_herrera_outlaw_player_dav_dummy.dealerPrice: 1
+Vehicle.v_sport1_herrera_outlaw_player_dav_dummy.dealerCred: 20
+
+# Append the new vehicles to the list
+Vehicle.vehicle_list.list:
+  - !append Vehicle.v_sport1_herrera_outlaw_player_dav_dummy
+
+# Entity to be controlled
+# Please use the name without _dummy from above.
+Vehicle.v_sport1_herrera_outlaw_player_dav:
+  $base: Vehicle.v_sport1_herrera_outlaw_player
+  entityTemplatePath: base\vehicles\sport\v_sport1_herrera_outlaw_basic_01.ent
+  player_audio_resource: v_av_basilisk_tank
+  vehDataPackage: 
+    $base: Vehicle.VehicleDataPackageDefault
+    exitDelay: 1.0
+
+
