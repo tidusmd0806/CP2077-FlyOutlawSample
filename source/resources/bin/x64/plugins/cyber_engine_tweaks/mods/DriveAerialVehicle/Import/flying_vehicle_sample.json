@@ -16,7 +16,7 @@
         "camera_distance_ratio": [1.0],
         "camera_center_offset": [{"x": 0.0, "y": 0.0, "z": 0.0}],
         "entry_point": {"x": -1.0, "y": 0.0, "z": -1.0},
-        "entry_area_radius": 10,
+        "entry_area_radius": 2,
         "exit_point": {"x": -2.5, "y": 0, "z": 0},
         "exit_duration": 1.0,
         "minimum_distance_to_ground": 0.8,
